@@ -1,0 +1,28 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+auth.json
+
+# Dependencias
+vendor/
+node_modules/
+
+# Base de datos local
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Logs y pruebas
+*.log
+.phpunit.cache/
+.phpunit.result.cache
+
+# Editores
+.idea/
+.vscode/
